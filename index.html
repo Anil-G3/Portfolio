@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>G Anil Kumar — Java Full-Stack Developer</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700;9..144,900&family=DM+Sans:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <nav>
+    <span class="nav-logo">G. Anil Kumar</span>
+    <div class="nav-links">
+      <a href="#" onclick="goTo(0); return false">Home</a>
+      <a href="#" onclick="goTo(1); return false">About</a>
+      <a href="#" onclick="goTo(2); return false">Skills</a>
+      <a href="#" onclick="goTo(3); return false">Projects</a>
+      <a href="#" onclick="goTo(4); return false">Education</a>
+      <a href="#" onclick="goTo(5); return false">Contact</a>
+    </div>
+  </nav>
+
+  <!-- ── Slider Wrapper ── -->
+  <div id="slider">
+
+    <!-- Slide 1 · Hero -->
+    <div class="slide">
+      <div class="card hero-card">
+        <div class="hero-blob"></div>
+        <div class="hero-body">
+          <div class="hero-tag">Java Full-Stack Developer</div>
+          <h1 class="hero-name">
+            Hello, I'm<br>
+            <em>Anil Kumar G</em>
+          </h1>
+          <p class="hero-sub">
+            Passionate about backend development with Java, Spring Boot, and System design.
+          </p>
+          <div class="hero-btns">
+            <a
+              class="btn-fill"
+              href="https://drive.google.com/file/d/1KUizwvPLlTTV4Rc-OsyKlViJQgeswgrd/view?usp=sharing"
+              target="_blank"
+            >
+              View Resume ↗
+            </a>
+            <a class="btn-out" href="https://github.com/Anil-G3" target="_blank">
+              GitHub ↗
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <span class="stat-num">B.Tech</span>
+              <span class="stat-lbl">2021 – 2025</span>
+            </div>
+            <div>
+              <span class="stat-num">Backend</span>
+              <span class="stat-lbl">Focus</span>
+            </div>
+            <div>
+              <span class="stat-num">Open</span>
+              <span class="stat-lbl">To Work</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-avatar">
+          <div class="avatar-ring">
+            <span class="avatar-txt">AK</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 2 · About -->
+    <div class="slide">
+      <div class="card about-card">
+        <div class="card-label">About Me</div>
+        <h2 class="about-title">Code | Build | Improve</h2>
+        <p class="about-p">
+          I am a B.Tech graduate with a strong foundation in full stack development, with
+          <strong>primary focus on Java and Spring Boot</strong>.
+          I have experience building RESTful APIs, working with MySQL, and writing clean,
+          maintainable code. On the frontend, I am
+          <strong>familiar with HTML, CSS, JavaScript</strong>, and have basic knowledge of React.
+          I am looking for an opportunity to apply my skills in real-world development
+          and continue growing as a developer.
+        </p>
+        <div class="about-facts">
+          <div class="fact">
+            <div class="fact-val">Java</div>
+            <div class="fact-key">Primary Language</div>
+          </div>
+          <div class="fact">
+            <div class="fact-val">OOP</div>
+            <div class="fact-key">Scalable Application Design</div>
+          </div>
+          <div class="fact">
+            <div class="fact-val">MySQL</div>
+            <div class="fact-key">Data Handling</div>
+          </div>
+          <div class="fact">
+            <div class="fact-val">Frontend</div>
+            <div class="fact-key">HTML, CSS, JS</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 3 · Skills -->
+    <div class="slide">
+      <div class="card skills-card">
+        <div class="card-label">Skills</div>
+        <h2 class="section-title">My Tech Stack</h2>
+        <div class="skills-grid">
+
+          <div class="sk-cell">
+            <div class="sg-name">Backend</div>
+            <div class="pills">
+              <span class="pill">Java</span>
+              <span class="pill">Spring Boot</span>
+              <span class="pill">Spring MVC</span>
+              <span class="pill">Spring Security</span>
+              <span class="pill">Spring Data JPA</span>
+              <span class="pill">Hibernate</span>
+              <span class="pill">REST APIs</span>
+              <span class="pill">JDBC</span>
+              <span class="pill">JWT</span>
+              <span class="pill">Servlet Filters</span>
+            </div>
+          </div>
+
+          <div class="sk-cell">
+            <div class="sg-name">Frontend</div>
+            <div class="pills">
+              <span class="pill">JavaScript</span>
+              <span class="pill">HTML5</span>
+              <span class="pill">CSS3</span>
+              <span class="pill">React JS</span>
+            </div>
+          </div>
+
+          <div class="sk-cell">
+            <div class="sg-name">Tools</div>
+            <div class="pills">
+              <span class="pill">Postman</span>
+              <span class="pill">Git</span>
+              <span class="pill">GitHub</span>
+              <span class="pill">Maven</span>
+              <span class="pill">VS Code</span>
+              <span class="pill">Eclipse</span>
+            </div>
+          </div>
+
+          <div class="sk-cell">
+            <div class="sg-name">Database</div>
+            <div class="pills">
+              <span class="pill">MySQL</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 4 · Projects -->
+    <div class="slide">
+      <div class="card proj-card">
+        <div class="card-label">Projects</div>
+        <h2 class="section-title" style="margin-bottom: 22px;">What I've Built</h2>
+        <div class="proj-grid">
+
+          <!-- Project 1 -->
+          <div class="proj-item">
+            <div class="proj-icon">🛒</div>
+            <div class="proj-num">Project 01</div>
+            <div class="proj-title">HoneyCart</div>
+            <div class="proj-stack">Java · Spring Boot · React JS · MySQL</div>
+            <ul class="proj-bullets">
+              <li>JWT auth &amp; role-based access — Admins and Customers</li>
+              <li>Razorpay gateway — cart, orders &amp; full payment lifecycle</li>
+              <li>Responsive React frontend with optimized MySQL schemas</li>
+            </ul>
+            <div class="proj-date">Jan 2026 — Mar 2026</div>
+            <div class="proj-bar">
+              <div class="proj-bar-fill" style="width: 90%"></div>
+            </div>
+            <a class="proj-live" href="https://honeycart-frontend.onrender.com/" target="_blank">
+              Live Demo ↗
+            </a>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="proj-item">
+            <div class="proj-icon">✅</div>
+            <div class="proj-num">Project 02</div>
+            <div class="proj-title">PlanPilot</div>
+            <div class="proj-stack">React JS · localStorage · GitHub Pages</div>
+            <ul class="proj-bullets">
+              <li>Add, delete, complete/undo tasks with real-time progress</li>
+              <li>localStorage persistence across page refreshes</li>
+              <li>Fully responsive, deployed live on GitHub Pages</li>
+            </ul>
+            <div class="proj-date">Mar 2026 — Apr 2026</div>
+            <div class="proj-bar">
+              <div class="proj-bar-fill" style="width: 75%"></div>
+            </div>
+            <a class="proj-live" href="https://anil-g3.github.io/PlanPilot/" target="_blank">
+              Live Demo ↗
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 5 · Education -->
+    <div class="slide">
+      <div class="card edu-card">
+        <div class="card-label">Background</div>
+        <h2 class="section-title" style="margin-bottom: 28px;">Education &amp; Certificates</h2>
+        <div style="display: grid; grid-template-columns: 1fr 1px 1fr; gap: 0 48px; flex: 1;">
+
+          <!-- Academics -->
+          <div>
+            <div class="edu-col-title">Academics</div>
+            <div class="edu-list">
+
+              <div class="edu-row">
+                <div class="edu-dot"></div>
+                <div>
+                  <div class="edu-degree">B.Tech</div>
+                  <div class="edu-info">
+                    Siddarth Inst. of Engg. &amp; Tech., Puttur AP · 2021–2025
+                  </div>
+                  <div class="edu-score">CGPA: 6.66</div>
+                </div>
+              </div>
+
+              <div class="edu-row">
+                <div class="edu-dot dim"></div>
+                <div>
+                  <div class="edu-degree">Intermediate</div>
+                  <div class="edu-info">
+                    Himaja Junior College, Puttur AP · 2019–2021
+                  </div>
+                  <div class="edu-score">84%</div>
+                </div>
+              </div>
+
+              <div class="edu-row">
+                <div class="edu-dot dim"></div>
+                <div>
+                  <div class="edu-degree">SSC</div>
+                  <div class="edu-info">
+                    Vasista Vidhyalaya School, Nagari AP · 2019
+                  </div>
+                  <div class="edu-score">CGPA: 9.00</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Divider -->
+          <div style="background: var(--lg);"></div>
+
+          <!-- Certifications -->
+          <div>
+            <div class="edu-col-title">Certifications</div>
+            <div class="cert-grid">
+
+              <a
+                class="cert"
+                href="https://drive.google.com/file/d/1PY1oewxPFBySV5mc0_y3OhT188pyFb3U/view?usp=sharing"
+                target="_blank"
+                rel="noopener"
+              >
+                <div class="cert-name">Full Stack Dev ↗</div>
+                <div class="cert-org">KodNest Technologies<br>May 2025 – Feb 2026</div>
+              </a>
+
+              <a
+                class="cert"
+                href="https://drive.google.com/file/d/13H-8kwpVWJXwuPwyvHo_K5bIJVjC1T-B/view?usp=sharing"
+                target="_blank"
+                rel="noopener"
+              >
+                <div class="cert-name">Java Programming ↗</div>
+                <div class="cert-org">The Website Makers<br>Nov – Dec 2023</div>
+              </a>
+
+              <a
+                class="cert"
+                href="https://drive.google.com/file/d/1PY1oewxPFBySV5mc0_y3OhT188pyFb3U/view?usp=sharing"
+                target="_blank"
+                rel="noopener"
+              >
+                <div class="cert-name">Embedded Software ↗</div>
+                <div class="cert-org">ProgMaster Pvt Ltd<br>Sep – Oct 2024</div>
+              </a>
+
+              <a
+                class="cert"
+                href="https://drive.google.com/file/d/17LsJar8S-8v_ePd-xI0PHYaOC0fsYAU5/view?usp=drive_link"
+                target="_blank"
+                rel="noopener"
+              >
+                <div class="cert-name">Industry 4.0 &amp; IIoT ↗</div>
+                <div class="cert-org">IIT Kharagpur · NPTEL<br>Jul – Oct 2024</div>
+              </a>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 6 · Contact -->
+    <div class="slide">
+      <div class="card contact-card">
+        <div class="card-label">Get In Touch</div>
+        <div class="contact-layout">
+
+          <div>
+            <h2 class="contact-title">
+              Let's build<br>
+              something<br>
+              great.
+            </h2>
+            <p class="contact-sub">
+              Open to full-time roles, internships, and exciting collaborations.
+              I'm just one message away!
+            </p>
+          </div>
+
+          <div class="contact-links">
+            <a class="clink" href="mailto:anilkumar.th20@gmail.com">
+              <span class="clink-icon">@</span>
+              anilkumar.th20@gmail.com
+            </a>
+            <a class="clink" href="tel:+917013726407">
+              <span class="clink-icon">☎</span>
+              +91 70137 26407
+            </a>
+            <a class="clink" href="https://linkedin.com/in/anil-kumar-g-79963137b" target="_blank">
+              <span class="clink-icon">in</span>
+              LinkedIn Profile ↗
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- /#slider -->
+
+  <!-- ── Navigation Dots ── -->
+  <div id="dots"></div>
+
+  <!-- ── Arrow Buttons ── -->
+  <button class="arrow" id="arL" onclick="goTo(cur - 1)">←</button>
+  <button class="arrow" id="arR" onclick="goTo(cur + 1)">→</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
