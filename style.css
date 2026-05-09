@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1f5f9;
+    color: #1f2933;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(135deg, #0f172a, #1e40af, #06b6d4);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    transition: all 0.4s ease;
+}
+
+.hero h1 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    animation: fadeInDown 1s ease forwards;
+}
+
+.hero p {
+    font-size: 18px;
+    opacity: 0.9;
+    animation: fadeInUp 1s ease forwards;
+}
+
+/* CONTAINER */
+.container {
+    width: 72%;
+    margin: 50px auto;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 28px;
+    margin-bottom: 30px;
+    border-radius: 16px;
+    box-shadow: 0 14px 32px rgba(0,0,0,0.08);
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 22px 44px rgba(0,0,0,0.12);
+}
+
+.card h2 {
+    color: #1e40af;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+/* PROJECT HIGHLIGHT */
+.highlight {
+    border-left: 6px solid #06b6d4;
+    background: linear-gradient(to right, #ffffff, #ecfeff);
+}
+
+/* SKILLS */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.skills span {
+    background: linear-gradient(135deg, #e0f2fe, #ecfeff);
+    color: #0369a1;
+    padding: 11px 22px;
+    border-radius: 28px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.skills span:hover {
+    background: linear-gradient(135deg, #1e40af, #06b6d4);
+    color: white;
+    transform: scale(1.12);
+}
+
+/* FOOTER */
+.footer {
+    background: linear-gradient(135deg, #0f172a, #1e40af);
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.footer p {
+    margin: 6px 0;
+    font-size: 14px;
+}
+
+/* ANIMATIONS */
+@keyframes fadeInDown {
+    0% {opacity: 0; transform: translateY(-20px);}
+    100% {opacity: 1; transform: translateY(0);}
+}
+
+@keyframes fadeInUp {
+    0% {opacity: 0; transform: translateY(20px);}
+    100% {opacity: 1; transform: translateY(0);}
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 900px) {
+    .container {
+        width: 90%;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero {
+        padding: 60px 15px;
+    }
+
+    .card {
+        padding: 22px;
+    }
+
+    .skills span {
+        padding: 8px 16px;
+        font-size: 13px;
+    }
+}
